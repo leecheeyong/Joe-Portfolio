@@ -1,0 +1,64 @@
+body {
+    background-color: #363232;
+    font-family: 'Roboto', sans-serif;
+    animation: fadein 2s;
+}
+
+.typewriter a {
+    color: grey;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #332929;
+    padding: 40px;
+    margin: 2em;
+    max-width: 12em;
+    border-radius: 30px;
+    line-height: 5px;
+}
+
+.header > h1 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.header a {
+    color:white;
+    text-decoration: none;
+}
+
+.header > h2 {
+    color: rgb(165, 165, 165);
+    font-size: 1em;
+}
+
+.container {
+    padding-top: 10em;
+    justify-content: center;
+    display: flex; 
+}
+
+.typewriter h1 {
+    color: #fff;
+    font-size: 1.4em;
+    overflow: hidden; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 2.5s steps(30, end), step-end infinite;
+}
+  
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

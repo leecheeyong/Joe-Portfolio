@@ -1,0 +1,124 @@
+/*
+Handcoded By Chee Yong Lee (https://github.com/joeleeofficial) & (https://github.com/leecheeyong)
+This code is available as open source under the terms of the GPL-3.0 (https://github.com/joeleeofficial/Joe-Portfolio/blob/master/LICENSE)
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    --background-color: #363232;
+    --background-alt: #3b3b3b;
+    --alt-color: #e8b7b7;
+    --font-color: rgb(230, 228, 228);
+    --purple-font: rgb(182, 182, 253);
+    --grey-font: rgb(124, 123, 123);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--font-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: var(--alt-color);
+    text-decoration: none;
+}
+
+.header {
+    margin: 2em;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.nav > a {
+    padding: 5px;
+}
+
+.logo {
+    background-color: var(--background-alt);
+    border-radius:25px;
+    font-weight: bold;
+    line-height: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    text-align:center;
+}
+
+.logo > div {
+  flex: 1;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-bottom: 1em;
+}
+
+.info {
+    margin-top: 4em;
+    width: 300px;
+}
+
+.about {
+    font-family: 'Anonymous Pro', monospace;  
+    border-radius: 25px;
+    padding:1.5em;
+    line-height: 25px;
+    margin-top: 1.5em;
+    text-align: left;
+    max-width: 400px;
+}
+
+.about > h1 {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.container {
+    margin-top: 1em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    display: block;
+    flex-wrap: wrap; 
+    border-radius: 25px;
+    padding: 25px;
+    background-color: var(--background-color);
+}
+
+.container > code {
+    color: var(--purple-font);
+}
+
+.project {
+    border-left: solid 2px var(--alt-color);
+    padding-left: 10px;
+    text-align: left;
+    margin-top: 1em;
+}
+
+.project h3 {
+    color: var(--alt-color);
+}
+
+.project p {
+    color: var(--font-color);
+    margin-top: .4em;
+    font-size: 13px;
+    line-height: 13px;
+}
+
+.footer {
+    width: 100vw;
+    color: var(--grey-font);
+    font-size: .7em;
+    padding: 1em;
+    text-align:center;
+}
