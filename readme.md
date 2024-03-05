@@ -1,5 +1,5 @@
 # [Joe's Portfolio](https://joe.js.org)
-Chee Yong Lee's Portfolio, Introduction Website
+Chee Yong's Portfolio, Introduction Website
 
 ## About
 - Handcoded By Chee Yong
