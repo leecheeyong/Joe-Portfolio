@@ -8,5 +8,5 @@ Chee Yong's Portfolio, Introduction Website
 - Open Source !
 
 ## Credit
-> Please do credit me (the author) and follow the terms of [GPL-3.0 License](./LICENSE)
+> Project is available as an open source under the terms of [GPL-3.0 License](./LICENSE)
 
